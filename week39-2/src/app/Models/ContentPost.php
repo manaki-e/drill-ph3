@@ -5,6 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * App\Models\ContentPost
+ *
+ * @method static \Illuminate\Database\Eloquent\Builder|ContentPost newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|ContentPost newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|ContentPost query()
+ * @mixin \Eloquent
+ */
 class ContentPost extends Model
 {
     use HasFactory;

@@ -29,7 +29,7 @@ services:
       - ./container/db/data:/var/lib/mysql
 
   node:
-    image: node:14
+    image: node:18.12.1
     tty: true
     volumes:
       - ./src:/mnt

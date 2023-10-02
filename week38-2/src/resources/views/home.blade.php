@@ -22,7 +22,7 @@
 
     <main>
         <div class="main-container mx-auto">
-            <h1>202X/XX/XX YY:YY:YY</h1>
+            <h1>{{ $now }}</h1>
             <div class="card-group" style="gap: 8px;">
                 @foreach ($users as $user)
                     <div class="card" style="min-width: 300px; max-width: 300px;">

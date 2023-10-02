@@ -11,7 +11,7 @@
                 </ul>
             </div>
         @endif
-        <form action="{{ route('quizzes.store') }}" method="post">
+        <form action="{{ route('quizzes.store') }}" method="post" enctype="multipart/form-data">
             @csrf
 
             <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300" for="file">Upload

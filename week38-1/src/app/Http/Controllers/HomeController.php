@@ -12,9 +12,9 @@ class HomeController extends Controller
     {
         // generationが1のuser郡を取得
         $users = User::where('generation', 1)->get();
-        Session::put('home', 1);
-        $sessionHome = Session::get('home');
-        dd($sessionHome);
+        session(["home" => 1]);
+        $value = session("home");
+        dd($value);
         return view('home', compact('users'));
     }
 

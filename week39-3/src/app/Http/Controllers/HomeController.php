@@ -1,5 +1,7 @@
 <?php
+
 declare(strict_types=1);
+
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -33,5 +35,14 @@ class HomeController extends Controller
         }
 
         return 'some' . $value;
+    }
+
+    public function incrementNumber(?int $number): int
+    {
+        if (is_null($number)) {
+            return '';
+        }
+
+        return $number;
     }
 }

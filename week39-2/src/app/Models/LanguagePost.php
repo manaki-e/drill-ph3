@@ -5,6 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * App\Models\LanguagePost
+ *
+ * @method static \Illuminate\Database\Eloquent\Builder|LanguagePost newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|LanguagePost newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|LanguagePost query()
+ * @mixin \Eloquent
+ */
 class LanguagePost extends Model
 {
     use HasFactory;

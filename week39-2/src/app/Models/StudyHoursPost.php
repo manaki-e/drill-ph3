@@ -5,6 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * App\Models\StudyHoursPost
+ *
+ * @method static \Illuminate\Database\Eloquent\Builder|StudyHoursPost newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|StudyHoursPost newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|StudyHoursPost query()
+ * @mixin \Eloquent
+ */
 class StudyHoursPost extends Model
 {
     use HasFactory;

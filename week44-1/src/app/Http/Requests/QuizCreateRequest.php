@@ -32,4 +32,11 @@ class QuizCreateRequest extends FormRequest
             'sample' => 'サンプル'
         ];
     }
+
+    public function messages()
+    {
+        return [
+            'sample.required'  => 'サンプルは必須項目です',
+        ];
+    }
 }

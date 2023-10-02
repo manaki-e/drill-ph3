@@ -29,7 +29,7 @@
                         <div class="card-body">
                             <p class="card-text">family name: {{ $user->family_name }}</p>
                             <p class="card-text">first name: {{ $user->first_name }}</p>
-                            <p class="card-text">full name: {{ $user->first_name . ' ' .  $user->family_name }}</p>
+                            <p class="card-text">full name: {{ $user->full_name }}</p>
                         </div>
                     </div>
                 @endforeach
